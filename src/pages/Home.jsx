@@ -1,10 +1,13 @@
-import LogoutButton from "../components/common/LogoutButton";
+
+import Header from "../components/Header";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to Movie Flix 🎬</h1>
-      <LogoutButton />
+    <div className="home-container">
+      <div className="home-header-section">
+        <Header/> 
+      </div>
+    
     </div>
   );
 };

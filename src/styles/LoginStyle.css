@@ -1,0 +1,49 @@
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-box{
+    width:600px;
+    height: 600px;
+    padding:40px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-top:40px;
+    background-image: url(../assets/MoveFlix-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.login-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #10d9e7;
+}
+.google-login-button{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 180px;
+    
+}
+/* .logo-image{
+    display: block;
+    object-fit: cover;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    height: 100px;
+} */
